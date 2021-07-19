@@ -1,0 +1,36 @@
+#head-1 {
+    background-color: rgb(1, 124, 1);
+}
+
+.headlines {
+    font-family: Georgia;
+    text-align: center;
+}
+
+p {
+    line-height: 25px;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    background-color: rgb(223, 223, 18);
+    text-decoration: underline;
+}
+
+#para4 {
+    text-transform: uppercase;
+}
+
+img {
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ul > li {
+    text-transform: uppercase;
+    font-family: Georgia;
+    font-size: 20px;
+}
