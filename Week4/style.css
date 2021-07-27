@@ -1,0 +1,36 @@
+#head-1 {
+    font-size: 30px;
+    color: cadetblue;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 20px 10px 20px;
+    background-image: url(https://sanford.duke.edu/sites/sanford.duke.edu/files/images/article/Google-News-Lab-Header.png);
+    font-family: 'Franklin Gothic';
+}
+
+#nav {
+    font-family: 'franklin Gothic';
+    padding: 0px 10px 0px 20px;
+    margin: 0px 685px;
+    font-size: 25px;
+    position: fixed;
+    background-color: beige;
+    border: 7px groove;
+    border-radius: 10px;
+    width: 485px;
+    height: 30px;
+}
+
+a {
+    color: cadetblue;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.a {
+    border-right-style: inset;
+}
+
+img {
+    width: 300px;
+}
