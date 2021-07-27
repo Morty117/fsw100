@@ -1,3 +1,7 @@
+body {
+    background-image: url(https://www.economist.com/sites/default/files/images/print-edition/20171028_WBP001_0.jpg);
+}
+
 #head-1 {
     font-size: 30px;
     color: cadetblue;
@@ -14,23 +18,65 @@
     margin: 0px 685px;
     font-size: 25px;
     position: fixed;
-    background-color: beige;
+    background-color: ghostwhite;
     border: 7px groove;
     border-radius: 10px;
     width: 485px;
     height: 30px;
 }
 
-a {
+#nav-a-3 {
     color: cadetblue;
     text-decoration: none;
     padding-right: 10px;
 }
 
 .a {
+    color: cadetblue;
+    text-decoration: none;
+    padding-right: 10px;
     border-right-style: inset;
 }
 
-img {
+.divs {
+    background-color: rgb(190, 201, 209);
+    border-style: inset;
+    border-color: black;
+    border-width: 5px;
+    margin: 100px 100px 20px 325px;
+    width: 1200px;
+    height: 250px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.heading {
+    margin: 10px;
+}
+
+.spans {
+    padding-left: 10px;
+    border-right-style: groove;
+    padding-right: 2px;
+}
+
+.spans-2 {
+    padding-left: 2px;
+}
+
+.images {
     width: 300px;
+    height: 175px;
+    float: left;
+    margin-left: 10px;
+}
+
+.paragraphs {
+    margin: 0px 20px 0px 20px;
+    padding: 0px 300px 10px 300px;
+    font-size: 20px;
+}
+
+.read-more {
+    color: black;
+    padding: 0px 0px 20px 10px;
 }
