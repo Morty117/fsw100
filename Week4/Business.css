@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     background-image: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    margin: 0px;
 }
 
 * {
@@ -43,7 +44,8 @@ header {
 .row {
     height: 100%;
     padding-bottom: 150px;
-    padding-left: 10pxa;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #column-1 {
@@ -86,6 +88,11 @@ header {
 }
 
 .list {
+    text-align: center;
+    font-size: 30px;
+}
+
+#foot {
     text-align: center;
     font-size: 30px;
 }
