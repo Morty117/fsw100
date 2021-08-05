@@ -1,0 +1,38 @@
+.container-2 {
+    margin: 0px 500px 0px 500px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.head-6 {
+    background-color: hotpink;
+    border-radius: 5px;
+    grid-column: 1/ 5;
+    grid-row: 1/ span 3;
+}
+.head-7 {
+    background-color: purple;
+    border-radius: 5px;
+    grid-column: 1/ 3;
+    grid-row: 3/ 9;
+}
+.head-8 {
+    background-color: rgb(112, 94, 112);
+    border-radius: 5px;
+    grid-column: 3/ 5;
+    grid-row: 3/ span 4;
+}
+.head-9 {
+    background-color: orange;
+    border-radius: 5px;
+    grid-column: 3/ 4;
+    grid-row: 6/ span 8;
+}
+.head-10 {
+    background-color: green;
+    border-radius: 5px;
+    grid-column: 4/ 5;
+    grid-row: 6/ span 8;
+}
