@@ -28,11 +28,11 @@
     background-color: orange;
     border-radius: 5px;
     grid-column: 3/ 4;
-    grid-row: 6/ 8;
+    grid-row: 6/ 9;
 }
 .head-10 {
     background-color: green;
     border-radius: 5px;
     grid-column: 4/ 5;
-    grid-row: 6/ 8;
+    grid-row: 6/ 9;
 }
