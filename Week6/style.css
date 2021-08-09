@@ -1,0 +1,63 @@
+#box-1 {
+    background-color: aqua;
+    margin-bottom: 50px;
+    height: 100px;
+}
+#box-1:hover{
+    transition: margin 1s ease-in-out 1s;
+    margin: 200px;
+}
+
+#box-2 {
+    background-color: rgb(80, 53, 53);
+    border: black;
+    margin-bottom: 50px;
+    height: 100px;
+}
+#box-2:hover{
+    transition: border-radius 100ms ease-in 400ms;
+    border-radius: 50%;
+}
+
+#box-3 {
+    background-color: crimson;
+    height: auto;
+    margin-bottom: 50px;
+    height: 100px;
+}
+#box-3:hover{
+    transition: height 1s ease-out 2s;
+    height: 500px;
+}
+
+#box-4 {
+    background-color: darkblue;
+    width: auto;
+    margin-bottom: 50px;
+    height: 100px;
+}
+#box-4:hover{
+    transition: width 2s ease-in-out 1s;
+    width: 250px;
+}
+
+#box-5 {
+    background-color: gold;
+    margin-bottom: 50px;
+    height: 100px;
+}
+#box-5:hover{
+    transition: background-color 3s ease-out 1s;
+    background-color: black;
+}
+
+#box-6 {
+    background-image: url(https://cdn.britannica.com/02/20302-050-C9632F53/Seto-Great-Bridge-Inland-Sea-Kojima-Honshu.jpg);
+    margin-bottom: 50px;
+    height: 500px;
+    width: 800px;
+}
+#box-6:hover{
+    transition: opacity 2s ease-in 1s;
+    opacity: 50%;
+}
